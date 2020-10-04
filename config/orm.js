@@ -1,4 +1,4 @@
-var connection = require("../config/connection.js?");
+var connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
     var arr = [];
@@ -97,7 +97,5 @@ function printQuestionMarks(num) {
     }
   };
   
-
-
 //export the connection
 module.exports = orm;
